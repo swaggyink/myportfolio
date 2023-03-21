@@ -327,14 +327,14 @@
           // send the email
           emailjs
             .send(
-              process.env.YOUR_SERVICE_ID,
-              process.env.YOUR_TEMPLATE_ID,
+              "service_gxikwrt",
+              "template_8gsbfnb",
               {
                 name: name,
                 email: email,
                 msg: msg,
               },
-              process.env.YOUR_PUBLICKEY
+              "9vKHj8Y93b6BIfMFo"
             )
             .then(
               function (response) {

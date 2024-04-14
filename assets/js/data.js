@@ -11,12 +11,12 @@ const products = [
   },
   {
     image: "assets/img/portfolio/new2/IMG_1538.png",
-    video: "assets/img/portfolio/new2/IMG_1538.MP4",
+    video: "assets/img/portfolio/new2/IMG_1538.mp4",
     type: "video",
   },
   {
     image: "assets/img/portfolio/new2/IMG_1536.png",
-    video: "assets/img/portfolio/new2/IMG_1536.MP4",
+    video: "assets/img/portfolio/new2/IMG_1536.mp4",
     type: "video",
   },
 

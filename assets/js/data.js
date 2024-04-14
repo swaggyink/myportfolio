@@ -89,24 +89,24 @@ const products = [
   {
     image: "assets/img/portfolio/new/gov2.jpg",
   },
-  {
-    image: "assets/img/portfolio/new/gov3.jpg",
-  },
-  {
-    image: "assets/img/portfolio/new/gov4.jpg",
-  },
+  //   {
+  //     image: "assets/img/portfolio/new/gov3.jpg",
+  //   },
+  //   {
+  //     image: "assets/img/portfolio/new/gov4.jpg",
+  //   },
   {
     image: "assets/img/portfolio/new/gov5.jpg",
   },
-  {
-    image: "assets/img/portfolio/new/helmt.jpg",
-  },
+  //   {
+  //     image: "assets/img/portfolio/new/helmt.jpg",
+  //   },
   //   {
   //     image: "assets/img/portfolio/new/nabin.jpg",
   //   },
-  {
-    image: "assets/img/portfolio/new/rasem.jpg",
-  },
+  //   {
+  //     image: "assets/img/portfolio/new/rasem.jpg",
+  //   },
 ];
 
 const cardContainer = document.getElementById("card-container");

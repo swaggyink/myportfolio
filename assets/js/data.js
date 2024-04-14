@@ -14,6 +14,11 @@ const products = [
     video: "assets/img/portfolio/new2/IMG_1538.MP4",
     type: "video",
   },
+  {
+    image: "assets/img/portfolio/new2/IMG_1536.png",
+    video: "assets/img/portfolio/new2/IMG_1536.MP4",
+    type: "video",
+  },
 
   {
     image: "assets/img/portfolio/new2/IMG_1675.PNG",

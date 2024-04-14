@@ -16,7 +16,7 @@ const products = [
   },
 
   {
-    image: "assets/img/portfolio/new2/IMG_1675.png",
+    image: "assets/img/portfolio/new2/IMG_1675.PNG",
   },
   {
     image: "assets/img/portfolio/new2/IMG_7445.png",
@@ -25,7 +25,7 @@ const products = [
     image: "assets/img/portfolio/new/IMG_1045.jpg",
   },
   {
-    image: "assets/img/portfolio/new/untitled-1.jpg",
+    image: "assets/img/portfolio/new/Untitled-1.jpg",
   },
   {
     image: "assets/img/portfolio/video1.png",

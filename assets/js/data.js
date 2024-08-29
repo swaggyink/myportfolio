@@ -119,6 +119,7 @@ if (cardContainer) {
       newCard.innerHTML = `     
       <div class="st-portfolio-single st-style1" id="gallery-videojs-demo">
         <div class="st-portfolio-item">
+        <img src="assets/img/di9rnbxjT.gif" alt="portfolio" class="play-btn-overlay">
           <a href=${card.video} class="st-portfolio st-zoom st-lightbox-item">
             <div class="st-portfolio-img st-zoom-in">
               <img src=${card.image} alt="portfolio">

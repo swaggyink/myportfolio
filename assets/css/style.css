@@ -3225,3 +3225,59 @@ canvas {
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(254, 197, 68, 0.3);
 }
+
+/* Logo Slider Styles */
+.st-logo-slider {
+  background-color: #f8f9fa;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.st-logo-slider-wrap {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.st-logo-slider-track {
+  display: flex;
+  animation: logoScroll 30s linear infinite;
+  width: fit-content;
+}
+
+.st-logo-slide {
+  flex: 0 0 auto;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.st-logo-slide img {
+  max-width: 150px;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+  opacity: 0.6;
+}
+
+.st-logo-slide img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+@keyframes logoScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause animation on hover */
+.st-logo-slider-wrap:hover .st-logo-slider-track {
+  animation-play-state: paused;
+}
+
+/* Responsive adjustments */

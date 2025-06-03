@@ -338,14 +338,14 @@ if (cardContainer) {
     }
 
     function showNext() {
-      currentIndex = (currentIndex + 1) % portfolioData.items.length;
+      currentIndex =
+        (currentIndex - 1 + portfolioData.items.length) %
+        portfolioData.items.length;
       showGallery(currentIndex);
     }
 
     function showPrev() {
-      currentIndex =
-        (currentIndex - 1 + portfolioData.items.length) %
-        portfolioData.items.length;
+      currentIndex = (currentIndex + 1) % portfolioData.items.length;
       showGallery(currentIndex);
     }
 

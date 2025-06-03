@@ -189,6 +189,7 @@ if (cardContainer) {
   // Number of items to show initially
   const itemsPerPage = 6;
   let currentPage = 1;
+  let gallery = null; // Single gallery instance
 
   function createPortfolioItem(item, index) {
     const newCard = document.createElement("div");
@@ -199,7 +200,7 @@ if (cardContainer) {
       <div class="st-portfolio-single st-style1" data-index="${index}">
         <div class="st-portfolio-item">
           <img src="assets/img/di9rnbxjT.gif" alt="portfolio" class="play-btn-overlay">
-          <a href="${item.video}" class="st-portfolio st-zoom" data-type="video" data-src="${item.video}" data-poster="${item.image}">
+          <div class="st-portfolio st-zoom" data-type="video" data-src="${item.video}" data-poster="${item.image}" data-index="${index}">
             <div class="st-portfolio-img st-zoom-in">
               <img src="${item.image}" alt="portfolio">
             </div>
@@ -208,14 +209,14 @@ if (cardContainer) {
               <h5>${item.title}</h5>
               <p>${item.description}</p>
             </div>
-          </a>
+          </div>
         </div>
       </div>`;
     } else {
       newCard.innerHTML = `
       <div class="st-portfolio-single st-style1" data-index="${index}">
         <div class="st-portfolio-item">
-          <a href="${item.image}" class="st-portfolio st-zoom" data-type="image" data-src="${item.image}">
+          <div class="st-portfolio st-zoom" data-type="image" data-src="${item.image}" data-index="${index}">
             <div class="st-portfolio-img st-zoom-in">
               <img src="${item.image}" alt="portfolio">
             </div>
@@ -224,7 +225,7 @@ if (cardContainer) {
               <h5>${item.title}</h5>
               <p>${item.description}</p>
             </div>
-          </a>
+          </div>
         </div>
       </div>`;
     }
@@ -257,7 +258,9 @@ if (cardContainer) {
 
   // Create load more button
   const loadMoreContainer = document.createElement("div");
-  loadMoreContainer.className = "col-12 text-center";
+  loadMoreContainer.className = "col-12 text-center mt-4";
+  loadMoreContainer.style.display = "flex";
+  loadMoreContainer.style.justifyContent = "center";
   loadMoreContainer.innerHTML = `
     <button id="load-more-btn" class="st-btn st-style1 st-color1">Load More</button>
   `;
@@ -276,11 +279,9 @@ if (cardContainer) {
   }
 
   function initializeGallery() {
-    const galleryItems = document.querySelectorAll(".st-portfolio.st-zoom");
-    let currentIndex = 0;
-
-    function createGallery() {
-      const gallery = document.createElement("div");
+    // Create gallery if it doesn't exist
+    if (!gallery) {
+      gallery = document.createElement("div");
       gallery.className = "custom-gallery";
       gallery.innerHTML = `
         <div class="gallery-overlay"></div>
@@ -296,16 +297,15 @@ if (cardContainer) {
         </div>
       `;
       document.body.appendChild(gallery);
-      return gallery;
     }
 
-    const gallery = createGallery();
     const mediaContainer = gallery.querySelector(".gallery-media");
     const caption = gallery.querySelector(".gallery-caption");
     const overlay = gallery.querySelector(".gallery-overlay");
     const closeBtn = gallery.querySelector(".gallery-close");
     const prevBtn = gallery.querySelector(".gallery-prev");
     const nextBtn = gallery.querySelector(".gallery-next");
+    let currentIndex = 0;
 
     function showGallery(index) {
       currentIndex = index;
@@ -342,10 +342,19 @@ if (cardContainer) {
       showGallery(currentIndex);
     }
 
-    // Event listeners
-    galleryItems.forEach((item, index) => {
+    // Remove old event listeners
+    const oldItems = document.querySelectorAll(".st-portfolio.st-zoom");
+    oldItems.forEach((item) => {
+      const newItem = item.cloneNode(true);
+      item.parentNode.replaceChild(newItem, item);
+    });
+
+    // Add new event listeners
+    document.querySelectorAll(".st-portfolio.st-zoom").forEach((item) => {
       item.addEventListener("click", (e) => {
         e.preventDefault();
+        e.stopPropagation();
+        const index = parseInt(item.getAttribute("data-index"));
         showGallery(index);
       });
     });

@@ -178,6 +178,13 @@ const portfolioData = {
       video: "assets/img/portfolio/new2/IMG_1689.MP4",
       type: "video",
     },
+    {
+      id: "item24",
+      title: "Commercial Photography",
+      description: "Commercial / Marketing",
+      image: "assets/img/portfolio/new/gov5.jpg",
+      type: "image",
+    },
   ],
 };
 

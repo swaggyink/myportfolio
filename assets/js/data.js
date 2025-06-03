@@ -178,11 +178,258 @@ const portfolioData = {
       video: "assets/img/portfolio/new2/IMG_1689.MP4",
       type: "video",
     },
+    // F&B Photos
     {
-      id: "item24",
-      title: "Commercial Photography",
-      description: "Commercial / Marketing",
-      image: "assets/img/portfolio/new/gov5.jpg",
+      id: "item25",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9460.jpg",
+      type: "image",
+    },
+    {
+      id: "item26",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9459.jpg",
+      type: "image",
+    },
+    {
+      id: "item27",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9458.jpg",
+      type: "image",
+    },
+    {
+      id: "item28",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9457.jpg",
+      type: "image",
+    },
+    {
+      id: "item29",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9456.jpg",
+      type: "image",
+    },
+    {
+      id: "item30",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9455.jpg",
+      type: "image",
+    },
+    // F&B Videos
+    {
+      id: "item31",
+      title: "Food & Beverage Video",
+      description: "Commercial / F&B",
+      image:
+        "assets/img/portfolio/new3/F&B/videos/334F968D-BDEE-49CA-A233-0CFEB8D6BCC8.MP4",
+      video:
+        "assets/img/portfolio/new3/F&B/videos/334F968D-BDEE-49CA-A233-0CFEB8D6BCC8.MP4",
+      type: "video",
+    },
+    {
+      id: "item32",
+      title: "Food & Beverage Video",
+      description: "Commercial / F&B",
+      image:
+        "assets/img/portfolio/new3/F&B/videos/F9D10F07-97A7-46D1-9F95-E247B859A65F.MP4",
+      video:
+        "assets/img/portfolio/new3/F&B/videos/F9D10F07-97A7-46D1-9F95-E247B859A65F.MP4",
+      type: "video",
+    },
+    // Sport & Fashion Videos
+    {
+      id: "item33",
+      title: "Sport & Fashion Video",
+      description: "Commercial / Sport & Fashion",
+      image: "assets/img/portfolio/new3/Mix sport- fashion/portfolio5.MP4",
+      video: "assets/img/portfolio/new3/Mix sport- fashion/portfolio5.MP4",
+      type: "video",
+    },
+    {
+      id: "item34",
+      title: "Sport & Fashion Video",
+      description: "Commercial / Sport & Fashion",
+      image: "assets/img/portfolio/new3/Mix sport- fashion/portfolio6.MP4",
+      video: "assets/img/portfolio/new3/Mix sport- fashion/portfolio6.MP4",
+      type: "video",
+    },
+    // Sport & Fashion Videos
+    {
+      id: "item35",
+      title: "Sport & Fashion Video",
+      description: "Commercial / Sport & Fashion",
+      image:
+        "assets/img/portfolio/new3/Mix sport- fashion/copy_7D0D578A-484C-42EE-8D35-061BA5754584.MOV",
+      video:
+        "assets/img/portfolio/new3/Mix sport- fashion/copy_7D0D578A-484C-42EE-8D35-061BA5754584.MOV",
+      type: "video",
+    },
+    {
+      id: "item36",
+      title: "Sport & Fashion Video",
+      description: "Commercial / Sport & Fashion",
+      image:
+        "assets/img/portfolio/new3/Mix sport- fashion/copy_F3EA6FB8-9827-43A8-9E66-3CA8E2D5EADA.MOV",
+      video:
+        "assets/img/portfolio/new3/Mix sport- fashion/copy_F3EA6FB8-9827-43A8-9E66-3CA8E2D5EADA.MOV",
+      type: "video",
+    },
+    {
+      id: "item37",
+      title: "Sport & Fashion Video",
+      description: "Commercial / Sport & Fashion",
+      image:
+        "assets/img/portfolio/new3/Mix sport- fashion/copy_12E5B7CF-E512-409A-97B5-A1B6771173E9.MOV",
+      video:
+        "assets/img/portfolio/new3/Mix sport- fashion/copy_12E5B7CF-E512-409A-97B5-A1B6771173E9.MOV",
+      type: "video",
+    },
+    {
+      id: "item38",
+      title: "Sport & Fashion Video",
+      description: "Commercial / Sport & Fashion",
+      image:
+        "assets/img/portfolio/new3/Mix sport- fashion/copy_72CA9A29-0BFC-4D37-866E-1570FA105334.MOV",
+      video:
+        "assets/img/portfolio/new3/Mix sport- fashion/copy_72CA9A29-0BFC-4D37-866E-1570FA105334.MOV",
+      type: "video",
+    },
+    {
+      id: "item39",
+      title: "Sport & Fashion Video",
+      description: "Commercial / Sport & Fashion",
+      image:
+        "assets/img/portfolio/new3/Mix sport- fashion/copy_E74BEED0-FC77-4427-A930-303E9BEB81F7.MOV",
+      video:
+        "assets/img/portfolio/new3/Mix sport- fashion/copy_E74BEED0-FC77-4427-A930-303E9BEB81F7.MOV",
+      type: "video",
+    },
+    // F&B Videos
+    {
+      id: "item40",
+      title: "Food & Beverage Video",
+      description: "Commercial / F&B",
+      image:
+        "assets/img/portfolio/new3/F&B/videos/334F968D-BDEE-49CA-A233-0CFEB8D6BCC8.MP4",
+      video:
+        "assets/img/portfolio/new3/F&B/videos/334F968D-BDEE-49CA-A233-0CFEB8D6BCC8.MP4",
+      type: "video",
+    },
+    {
+      id: "item41",
+      title: "Food & Beverage Video",
+      description: "Commercial / F&B",
+      image:
+        "assets/img/portfolio/new3/F&B/videos/F9D10F07-97A7-46D1-9F95-E247B859A65F.MP4",
+      video:
+        "assets/img/portfolio/new3/F&B/videos/F9D10F07-97A7-46D1-9F95-E247B859A65F.MP4",
+      type: "video",
+    },
+    {
+      id: "item42",
+      title: "Food & Beverage Video",
+      description: "Commercial / F&B",
+      image:
+        "assets/img/portfolio/new3/F&B/videos/5e75cf6e59fa4b5ea0226c3390f94ea8.MP4",
+      video:
+        "assets/img/portfolio/new3/F&B/videos/5e75cf6e59fa4b5ea0226c3390f94ea8.MP4",
+      type: "video",
+    },
+    {
+      id: "item43",
+      title: "Food & Beverage Video",
+      description: "Commercial / F&B",
+      image:
+        "assets/img/portfolio/new3/F&B/videos/8496EE00-325C-42DD-A47A-882EBC525602.MP4",
+      video:
+        "assets/img/portfolio/new3/F&B/videos/8496EE00-325C-42DD-A47A-882EBC525602.MP4",
+      type: "video",
+    },
+    {
+      id: "item44",
+      title: "Food & Beverage Video",
+      description: "Commercial / F&B",
+      image:
+        "assets/img/portfolio/new3/F&B/videos/4376A869-B51B-4962-A345-C50AA8B20325.MP4",
+      video:
+        "assets/img/portfolio/new3/F&B/videos/4376A869-B51B-4962-A345-C50AA8B20325.MP4",
+      type: "video",
+    },
+    // F&B Photos
+    {
+      id: "item45",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9460.jpg",
+      type: "image",
+    },
+    {
+      id: "item46",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9459.jpg",
+      type: "image",
+    },
+    {
+      id: "item47",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9458.jpg",
+      type: "image",
+    },
+    {
+      id: "item48",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9457.jpg",
+      type: "image",
+    },
+    {
+      id: "item49",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9456.jpg",
+      type: "image",
+    },
+    {
+      id: "item50",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9455.jpg",
+      type: "image",
+    },
+    {
+      id: "item51",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9454.jpg",
+      type: "image",
+    },
+    {
+      id: "item52",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9444.jpg",
+      type: "image",
+    },
+    {
+      id: "item53",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9440.jpg",
+      type: "image",
+    },
+    {
+      id: "item54",
+      title: "Food & Beverage Photography",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/F&B/photos/IMG_9439.jpg",
       type: "image",
     },
   ],

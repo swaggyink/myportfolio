@@ -364,8 +364,8 @@ const portfolioData = {
     },
     {
       id: "item29",
-      title: "Commercial Video",
-      description: "Commercial / Marketing",
+      title: "Sport & Fashion Video",
+      description: "Commercial / Sport & Fashion",
       image: "assets/img/portfolio/new3/mx/12.png",
       video:
         "assets/img/portfolio/new3/mx/WhatsApp Video 2025-06-04 at 1.02.06 PM.mp4",

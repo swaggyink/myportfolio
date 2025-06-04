@@ -253,13 +253,13 @@ const portfolioData = {
       image: "assets/img/portfolio/new3/F&B/photos/IMG_9440.jpg",
       type: "image",
     },
-    {
-      id: "item54",
-      title: "Food & Beverage Photography",
-      description: "Commercial / F&B",
-      image: "assets/img/portfolio/new3/F&B/photos/IMG_9439.jpg",
-      type: "image",
-    },
+    // {
+    //   id: "item54",
+    //   title: "Food & Beverage Photography",
+    //   description: "Commercial / F&B",
+    //   image: "assets/img/portfolio/new3/F&B/photos/IMG_9439.jpg",
+    //   type: "image",
+    // },
     {
       id: "item38",
       title: "Sport & Fashion Video",

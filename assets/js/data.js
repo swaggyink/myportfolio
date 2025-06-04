@@ -155,7 +155,7 @@ const portfolioData = {
       image:
         "assets/img/portfolio/new3/F&B/videos/334F968D-BDEE-49CA-A233-0CFEB8D6BCC8.png",
       video:
-        "assets/img/portfolio/new3/F&B/videos/334F968D-BDEE-49CA-A233-0CFEB8D6BCC8.MP4",
+        "assets/img/portfolio/new3/F&B/vd2/334F968D-BDEE-49CA-A233-0CFEB8D6BCC8.MP4",
       type: "video",
     },
     {

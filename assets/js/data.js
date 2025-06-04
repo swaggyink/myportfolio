@@ -291,26 +291,36 @@ const portfolioData = {
     //     "assets/img/portfolio/new3/Mix sport- fashion/copy_12E5B7CF-E512-409A-97B5-A1B6771173E9.MOV",
     //   type: "video",
     // },
-    // {
-    //   id: "item38",
-    //   title: "Sport & Fashion Video",
-    //   description: "Commercial / Sport & Fashion",
-    //   image:
-    //     "assets/img/portfolio/new3/Mix sport- fashion/copy_72CA9A29-0BFC-4D37-866E-1570FA105334.MOV",
-    //   video:
-    //     "assets/img/portfolio/new3/Mix sport- fashion/copy_72CA9A29-0BFC-4D37-866E-1570FA105334.MOV",
-    //   type: "video",
-    // },
-    // {
-    //   id: "item39",
-    //   title: "Sport & Fashion Video",
-    //   description: "Commercial / Sport & Fashion",
-    //   image:
-    //     "assets/img/portfolio/new3/Mix sport- fashion/copy_E74BEED0-FC77-4427-A930-303E9BEB81F7.png",
-    //   video:
-    //     "assets/img/portfolio/new3/Mix sport- fashion/copy_E74BEED0-FC77-4427-A930-303E9BEB81F7.MOV",
-    //   type: "video",
-    // },
+    {
+      id: "item38",
+      title: "Sport & Fashion Video",
+      description: "Commercial / Sport & Fashion",
+      image: "assets/img/portfolio/new3/mx/3.png",
+      video:
+        "assets/img/portfolio/new3/mx/copy_283ECA2B-D4D1-4234-B627-82FFDB5BD5AB.MOV",
+      type: "video",
+    },
+    {
+      id: "item39",
+      title: "Sport & Fashion Video",
+      description: "Commercial / Sport & Fashion",
+      image: "assets/img/portfolio/new3/mx/2.png",
+      video:
+        "assets/img/portfolio/new3/mx/copy_12E5B7CF-E512-409A-97B5-A1B6771173E9.MOV",
+      type: "video",
+    },
+
+    {
+      id: "item42",
+      title: "Food & Beverage Video",
+      description: "Commercial / F&B",
+      image: "assets/img/portfolio/new3/mx/1.png ",
+
+      video:
+        "assets/img/portfolio/new3/mx/WhatsApp Video 2025-06-04 at 1.01.04 PM.mp4",
+
+      type: "video",
+    },
     // F&B Videos
     {
       id: "item40",
@@ -332,16 +342,7 @@ const portfolioData = {
         "assets/img/portfolio/new3/F&B/videos/F9D10F07-97A7-46D1-9F95-E247B859A65F.MP4",
       type: "video",
     },
-    // {
-    //   id: "item42",
-    //   title: "Food & Beverage Video",
-    //   description: "Commercial / F&B",
-    //   image:
-    //     "assets/img/portfolio/new3/F&B/videos/5e75cf6e59fa4b5ea0226c3390f94ea8.png",
-    //   video:
-    //     "assets/img/portfolio/new3/F&B/videos/5e75cf6e59fa4b5ea0226c3390f94ea8.MP4",
-    //   type: "video",
-    // },
+
     {
       id: "item43",
       title: "Food & Beverage Video",

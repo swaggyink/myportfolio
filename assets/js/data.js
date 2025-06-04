@@ -326,14 +326,53 @@ const portfolioData = {
         "assets/img/portfolio/new3/mx/copy_A1899170-7224-4339-A853-BCB6ACED52A3.MOV",
       type: "video",
     },
-    // F&B Photos
+    {
+      id: "item26",
+      title: "Commercial Video",
+      description: "Commercial / Marketing",
+      image: "assets/img/portfolio/new3/mx/8.png",
+      video:
+        "assets/img/portfolio/new3/mx/copy_B6FAE585-E768-4532-85C8-CBFA945E7DAA.MOV",
+      type: "video",
+    },
+    {
+      id: "item27",
+      title: "Commercial Video",
+      description: "Commercial / Marketing",
+      image: "assets/img/portfolio/new3/mx/9.png",
+      video:
+        "assets/img/portfolio/new3/mx/copy_6D386B20-1B86-47D4-803E-7129FB8BF7A0.MOV",
+      type: "video",
+    },
+    {
+      id: "item26",
+      title: "Commercial Video",
+      description: "Commercial / Marketing",
+      image: "assets/img/portfolio/new3/mx/10.png",
+      video:
+        "assets/img/portfolio/new3/mx/copy_071F1967-732F-4A95-A396-E9550871E3A6.MOV",
+      type: "video",
+    },
+    {
+      id: "item28",
+      title: "Commercial Video",
+      description: "Commercial / Marketing",
+      image: "assets/img/portfolio/new3/mx/11.png",
+      video:
+        "assets/img/portfolio/new3/mx/copy_34825935-78B4-4F45-9E08-8FEFD9625E7F.MOV",
+      type: "video",
+    },
     // {
-    //   id: "item25",
-    //   title: "Food & Beverage Photography",
-    //   description: "Commercial / F&B",
-    //   image: "assets/img/portfolio/new3/F&B/photos/IMG_9460.jpg",
-    //   type: "image",
+    //   id: "item26",
+    //   title: "Commercial Video",
+    //   description: "Commercial / Marketing",
+    //   image: "assets/img/portfolio/new3/mx/8.png",
+    //   video:
+    //     "assets/img/portfolio/new3/mx/",
+    //   type: "video",
     // },
+    // F&B Photos
+
     // {
     //   id: "item26",
     //   title: "Food & Beverage Photography",

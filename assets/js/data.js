@@ -165,7 +165,7 @@ const portfolioData = {
       image:
         "assets/img/portfolio/new3/F&B/videos/F9D10F07-97A7-46D1-9F95-E247B859A65F.png",
       video:
-        "assets/img/portfolio/new3/F&B/videos/F9D10F07-97A7-46D1-9F95-E247B859A65F.MP4",
+        "assets/img/portfolio/new3/F&B/vd2/F9D10F07-97A7-46D1-9F95-E247B859A65F.MP4",
       type: "video",
     },
 
@@ -176,7 +176,7 @@ const portfolioData = {
       image:
         "assets/img/portfolio/new3/F&B/videos/8496EE00-325C-42DD-A47A-882EBC525602.png",
       video:
-        "assets/img/portfolio/new3/F&B/videos/8496EE00-325C-42DD-A47A-882EBC525602.MP4",
+        "assets/img/portfolio/new3/F&B/vd2/8496EE00-325C-42DD-A47A-882EBC525602.MP4",
       type: "video",
     },
     {
@@ -186,7 +186,7 @@ const portfolioData = {
       image:
         "assets/img/portfolio/new3/F&B/videos/4376A869-B51B-4962-A345-C50AA8B20325.png",
       video:
-        "assets/img/portfolio/new3/F&B/videos/4376A869-B51B-4962-A345-C50AA8B20325.MP4",
+        "assets/img/portfolio/new3/F&B/vd2/4376A869-B51B-4962-A345-C50AA8B20325.MP4",
       type: "video",
     },
     // F&B Photos
@@ -296,13 +296,13 @@ const portfolioData = {
       description: "Commercial / Marketing",
       image: "assets/img/portfolio/new3/mx/4.png",
       video:
-        "assets/img/portfolio/new3/mx/copy_DCFDDB6F-0958-4987-A357-A48FA52471C6",
+        "assets/img/portfolio/new3/mx/copy_DCFDDB6F-0958-4987-A357-A48FA52471C6.MOV",
       type: "video",
     },
     {
       id: "item3",
-      title: "Commercial Video",
-      description: "Commercial / Marketing",
+      title: "Sport & Fashion Video",
+      description: "Commercial / Sport & Fashion",
       image: "assets/img/portfolio/new3/mx/5.png",
       video:
         "assets/img/portfolio/new3/mx/copy_BA46AF2F-564D-4543-B228-C65A9B17BE2A.MOV",
@@ -346,8 +346,8 @@ const portfolioData = {
     },
     {
       id: "item26",
-      title: "Commercial Video",
-      description: "Commercial / Marketing",
+      title: "Sport & Fashion Video",
+      description: "Commercial / Sport & Fashion",
       image: "assets/img/portfolio/new3/mx/10.png",
       video:
         "assets/img/portfolio/new3/mx/copy_071F1967-732F-4A95-A396-E9550871E3A6.MOV",

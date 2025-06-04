@@ -1,8 +1,5 @@
 # Ignore large video files
-*.MOV
-*.mov
-*.MP4
-*.mp4
+
 assets/img/portfolio/new3/Mix sport- fashion/*.MOV
 assets/img/portfolio/new3/Mix sport- fashion/*.MP4
 assets/img/portfolio/new3/F&B/videos/*.MOV

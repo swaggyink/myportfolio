@@ -362,6 +362,15 @@ const portfolioData = {
         "assets/img/portfolio/new3/mx/copy_34825935-78B4-4F45-9E08-8FEFD9625E7F.MOV",
       type: "video",
     },
+    {
+      id: "item29",
+      title: "Commercial Video",
+      description: "Commercial / Marketing",
+      image: "assets/img/portfolio/new3/mx/12.png",
+      video:
+        "assets/img/portfolio/new3/mx/WhatsApp Video 2025-06-04 at 1.02.06 PM.mp4",
+      type: "video",
+    },
     // {
     //   id: "item26",
     //   title: "Commercial Video",
@@ -373,27 +382,6 @@ const portfolioData = {
     // },
     // F&B Photos
 
-    // {
-    //   id: "item26",
-    //   title: "Food & Beverage Photography",
-    //   description: "Commercial / F&B",
-    //   image: "assets/img/portfolio/new3/F&B/photos/IMG_9459.jpg",
-    //   type: "image",
-    // },
-    // {
-    //   id: "item27",
-    //   title: "Food & Beverage Photography",
-    //   description: "Commercial / F&B",
-    //   image: "assets/img/portfolio/new3/F&B/photos/IMG_9458.jpg",
-    //   type: "image",
-    // },
-    // {
-    //   id: "item28",
-    //   title: "Food & Beverage Photography",
-    //   description: "Commercial / F&B",
-    //   image: "assets/img/portfolio/new3/F&B/photos/IMG_9457.jpg",
-    //   type: "image",
-    // },
     // {
     //   id: "item29",
     //   title: "Food & Beverage Photography",

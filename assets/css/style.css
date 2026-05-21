@@ -3299,8 +3299,8 @@ canvas {
 
 .st-hero-logo-slider .st-logo-slider-track {
   display: flex;
-  animation: scroll 30s linear infinite;
-  width: calc(200px * 10); /* 5 logos * 2 for duplication */
+  animation: scroll 54s linear infinite;
+  width: calc(200px * 36); /* 18 logos * 2 for duplication */
 }
 
 .st-hero-logo-slider .st-logo-slide {
@@ -3329,7 +3329,7 @@ canvas {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-200px * 5)); /* Move by 5 logos */
+    transform: translateX(calc(-200px * 18));
   }
 }
 
@@ -3350,7 +3350,7 @@ canvas {
   }
 
   .st-hero-logo-slider .st-logo-slider-track {
-    width: calc(150px * 10);
+    width: calc(150px * 36);
   }
 
   @keyframes scroll {
@@ -3358,7 +3358,7 @@ canvas {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-150px * 5));
+      transform: translateX(calc(-150px * 18));
     }
   }
 }

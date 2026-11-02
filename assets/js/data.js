@@ -486,6 +486,9 @@ const portfolioData = {
       video: "assets/img/portfolio/medway/breast-implant.mp4",
       type: "video",
     },
+    {"id": "sequoia-morpheus8", "title": "Morpheus8", "description": "Sequoia Clinic / Video", "image": "", "video": "assets/video/sequoia/morpheus8-blurred.mp4", "type": "video"},
+    {"id": "sequoia-assessment", "title": "The Sequoia Assessment", "description": "Sequoia Clinic / Video", "image": "assets/video/sequoia/sequoia-assessment-cover.png", "video": "assets/video/sequoia/sequoia-assessment-v1.mp4", "type": "video"},
+    {"id": "sequoia-rejuran", "title": "REJURAN Undereye", "description": "Sequoia Clinic / Video", "image": "assets/video/sequoia/rejuran-undereye-cover.png", "video": "assets/video/sequoia/rejuran-undereye-01.mp4", "type": "video"},
   ],
 };
 
@@ -510,7 +513,7 @@ if (cardContainer) {
           <img src="assets/img/di9rnbxjT.gif" alt="portfolio" class="play-btn-overlay">
           <div class="st-portfolio st-zoom" data-type="video" data-src="${item.video}" data-poster="${item.image}" data-index="${index}">
             <div class="st-portfolio-img st-zoom-in">
-              <img src="${item.image}" alt="portfolio">
+              ${item.image ? `<img src="${item.image}" alt="${item.title}">` : `<video class="gallery-video-thumbnail" src="${item.video}#t=0.1" muted playsinline preload="metadata" aria-label="${item.title}"></video>`}
             </div>
             <div class="st-portfolio-item-hover">
               <i class="fas fa-plus-circle"></i>
@@ -526,7 +529,7 @@ if (cardContainer) {
         <div class="st-portfolio-item">
           <div class="st-portfolio st-zoom" data-type="image" data-src="${item.image}" data-index="${index}">
             <div class="st-portfolio-img st-zoom-in">
-              <img src="${item.image}" alt="portfolio">
+              ${item.image ? `<img src="${item.image}" alt="${item.title}">` : `<video class="gallery-video-thumbnail" src="${item.video}#t=0.1" muted playsinline preload="metadata" aria-label="${item.title}"></video>`}
             </div>
             <div class="st-portfolio-item-hover">
               <i class="fas fa-plus-circle"></i>
@@ -627,7 +630,7 @@ if (cardContainer) {
       const item = portfolioData.items[index];
       const mediaElement =
         item.type === "video"
-          ? `<video src="${item.video}" poster="${item.image}" controls></video>`
+          ? `<video src="${item.video}" poster="${item.image}" controls playsinline></video>`
           : `<img src="${item.image}" alt="${item.title}">`;
 
       mediaContainer.innerHTML = mediaElement;
